@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Pedestrian = ({isActive, onClick }) => (
   <button onClick={onClick} aria-label={isActive ? "Pedestrian Request Button Active" : "Pedestrian Request Button Inactive"}>
-    Pedestrian
+    Pedestrian Cross
   </button>
 );
 
